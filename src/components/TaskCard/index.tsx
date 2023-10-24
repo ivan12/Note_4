@@ -11,18 +11,18 @@ type TaskProps = {
 }
 
 const TaskCard = ({ deleteTask, editTask, indexTask, task }: TaskProps) => {
-  const { id, title, priority, status, progress } = task
-
+  const { id, title, description, priority, status, progress } = task
+  console.log("TASKCARD task >> ", task)
   return (
     <div key={id + "_" + title} className="task-card">
       <div className="flex w-100">
-        <span className="task-title">Titulo</span>
-        <span className="task">{title}</span>
+        <span className="task-title">{title}</span>
+        {description && <span className="task">{description}</span>}
       </div>
 
       <div className="actions">
-        <EditIcon className="mr-20 cp" onClick={() => editTask(task)} />
-        <DeleteIcon className="cp" onClick={() => deleteTask(indexTask)} />
+        <EditIcon className="mr-20 cp" data-testid="edit" onClick={() => editTask(task)} />
+        <DeleteIcon className="cp" data-testid="delete" onClick={() => deleteTask(indexTask)} />
       </div>
     </div>
   )

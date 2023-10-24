@@ -2,7 +2,7 @@ import "./style.scss"
 
 interface InputProps {
   isTextArea?: boolean
-  label: string
+  label?: string
   name: string
   onChange: (event: any) => void
   placeholder: string
@@ -12,7 +12,7 @@ interface InputProps {
 const Input = ({ label, placeholder, onChange, name, value, isTextArea }: InputProps) => {
   return (
     <div className="input">
-      <label htmlFor="">{label}</label>
+      {label && <label htmlFor="">{label}</label>}
       {isTextArea ? (
         <textarea placeholder={placeholder} onChange={onChange} name={name} value={value} />
       ) : (

@@ -1,6 +1,6 @@
 export const taskListMock = [
   {
-    descricao: "",
+    description: "Do something",
     id: "01",
     image: "",
     priority: "high",
@@ -9,19 +9,28 @@ export const taskListMock = [
     title: "Go to gym",
   },
   {
-    descricao: "",
+    description: "I love read books",
     id: "02",
     image: "",
     priority: "low",
     progress: 100,
     status: "Done",
     title: "Read a book",
+  },
+  {
+    description: "",
+    id: "03",
+    image: "",
+    priority: "low",
+    progress: 100,
+    status: "Done",
+    title: "Lets go!",
   },
 ]
 
 export const taskListMock2 = [
   {
-    descricao: "",
+    description: "Do something II",
     id: "01",
     image: "",
     priority: "high",
@@ -30,7 +39,7 @@ export const taskListMock2 = [
     title: "Go to gym",
   },
   {
-    descricao: "",
+    description: "I love read",
     id: "02",
     image: "",
     priority: "low",
@@ -39,7 +48,7 @@ export const taskListMock2 = [
     title: "Read a book",
   },
   {
-    descricao: "",
+    description: "I need go to the market",
     id: "03",
     image: "",
     priority: "medium",
@@ -48,7 +57,7 @@ export const taskListMock2 = [
     title: "Go to market",
   },
   {
-    descricao: "",
+    description: "Need to study",
     id: "04",
     image: "",
     priority: "high",
@@ -57,7 +66,7 @@ export const taskListMock2 = [
     title: "Restart Learning Solidworks",
   },
   {
-    descricao: "",
+    description: "Slider example",
     id: "05",
     image: "",
     priority: "high",
@@ -66,7 +75,7 @@ export const taskListMock2 = [
     title: "change slider to scroll",
   },
   {
-    descricao: "",
+    description: "Soh hard soh far",
     id: "06",
     image: "",
     priority: "medium",
