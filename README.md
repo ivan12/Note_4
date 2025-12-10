@@ -54,6 +54,7 @@ yarn install
 yarn start
 # or
 yarn dev
+```
 
 ## ☕ Buying me a coffee
 
