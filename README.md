@@ -1,4 +1,4 @@
-# 📝 Notes & Tasks App — React
+# 📝 Notes & Tasks App - React
 
 A simple and clean **Notes & Tasks web application** built with **React**.  
 You can quickly add notes, create tasks, mark them as done, and keep track of what matters in your day.
